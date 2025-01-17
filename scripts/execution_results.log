@@ -1,0 +1,675 @@
+Starting script execution...
+Processing folder: speclibzip
+Executing script: speclibzip/search_seq.sh
+----- Output of speclibzip/search_seq.sh -----
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:20:49
+gem5 executing on ubuntu, pid 1023
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2/128kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=128kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22992494000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:21:07
+gem5 executing on ubuntu, pid 1041
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2/256kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=256kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23062571000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:21:24
+gem5 executing on ubuntu, pid 1071
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2/512kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23039212000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:21:42
+gem5 executing on ubuntu, pid 1108
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2/1MB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=1MB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23015285000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:22:00
+gem5 executing on ubuntu, pid 1117
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2/4MB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=4MB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22645837000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:22:17
+gem5 executing on ubuntu, pid 1137
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d/16kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=16kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23262910000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:22:35
+gem5 executing on ubuntu, pid 1144
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d/32kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23039212000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:22:53
+gem5 executing on ubuntu, pid 1149
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d/64kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=64kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22991684000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:23:11
+gem5 executing on ubuntu, pid 1160
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d/128kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=128kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22966507000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:23:31
+gem5 executing on ubuntu, pid 1168
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i/16kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23039212000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:23:49
+gem5 executing on ubuntu, pid 1179
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i/32kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=32kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23020231000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:24:07
+gem5 executing on ubuntu, pid 1191
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i/64kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=64kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23033403000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:24:25
+gem5 executing on ubuntu, pid 1196
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i/128kB /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=128kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23023639000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:24:43
+gem5 executing on ubuntu, pid 1201
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2_assoc/1 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=1 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23035219000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:25:01
+gem5 executing on ubuntu, pid 1237
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2_assoc/2 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23039212000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:25:20
+gem5 executing on ubuntu, pid 1245
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2_assoc/4 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=4 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23051376000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:25:37
+gem5 executing on ubuntu, pid 1251
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2_assoc/8 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=8 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23049216000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:25:56
+gem5 executing on ubuntu, pid 1259
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2_assoc/16 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=16 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23039212000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:26:14
+gem5 executing on ubuntu, pid 1271
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l2_assoc/32 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=32 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22986926000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:26:32
+gem5 executing on ubuntu, pid 1276
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i_assoc/1 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23039212000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:26:50
+gem5 executing on ubuntu, pid 1336
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i_assoc/2 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=2 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22966997000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:27:09
+gem5 executing on ubuntu, pid 1344
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i_assoc/4 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=4 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22956568000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:27:27
+gem5 executing on ubuntu, pid 1351
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i_assoc/8 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=8 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22958385000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:27:45
+gem5 executing on ubuntu, pid 1360
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i_assoc/16 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=16 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22958385000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:28:04
+gem5 executing on ubuntu, pid 1383
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1i_assoc/32 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=32 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 22958385000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:28:22
+gem5 executing on ubuntu, pid 1389
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d_assoc/1 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23039212000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:28:41
+gem5 executing on ubuntu, pid 1396
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d_assoc/2 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=2 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23018613000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:28:59
+gem5 executing on ubuntu, pid 1401
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d_assoc/4 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=4 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23033403000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:29:17
+gem5 executing on ubuntu, pid 1406
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d_assoc/8 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=8 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23038639000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:29:35
+gem5 executing on ubuntu, pid 1411
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d_assoc/16 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=16 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23023072000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:29:53
+gem5 executing on ubuntu, pid 1416
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/l1d_assoc/32 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=32 --l2_assoc=2 --cacheline_size=64 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
+Exiting @ tick 23022151000 because a thread reached the max instruction count
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  7 2019 10:39:16
+gem5 started Jan 14 2025 12:30:13
+gem5 executing on ubuntu, pid 1434
+command line: /home/arch/Desktop/gem5/build/ARM/gem5.opt -d /home/arch/gem5_files/part_3/test/speclibzip/cacheline/16 /home/arch/Desktop/gem5/configs/example/se.py --cpu-type=MinorCPU --caches --l2cache --cpu-clock=1GHz --l1d_size=32kB --l1i_size=16kB --l2_size=512kB --l1d_assoc=1 --l1i_assoc=1 --l2_assoc=2 --cacheline_size=16 -c /home/arch/spec_cpu2006/401.bzip2/src/specbzip -o '/home/arch/spec_cpu2006/401.bzip2/data/input.program 10' -I 10000000
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+spec_init
+Loading Input Data
+Duplicating 2415144 bytes
+Input data 10485760 bytes in length
+Compressing Input Data, level 5
