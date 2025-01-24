@@ -60,9 +60,38 @@ TimingSimpleCPU
 
 To O3 εξομοιώνει  ένα  μοντέλο out-of order cpu το  οποίο  περιλαμβάνει branch prediction ,register renaming, reorder buffer.Περιλαμβάνει  τέσσερα  στάδια fetch decode ,rename, issue execute write back και commit. Έχει timing  buffers  ανάμεσα στα στάδια ώστε να παρμετροποιήθει ο χρόνος που παίρνει κάθε στάδιο.
 
-3αβ) Εκτελέσαμε για δύο διαφορετικά cpu  models  τo  minorCPU  και το timingSimpleCPU  και βλέπουμε ότι ο χρόνος εκτέλεσης του προγράμματος για το minorCPU  μοντέλο είναι 0.000034 seconds  ενώ για το timingSimpleCPU  είναι 0.000039 seconds. Καθώς η timing  simple  μας δίνει μια πιο καλή χρονική εκτίμηση είναι λογικό να έχουμε μια διαφορά στον χρόνο.
+3αβ)
 
-3γ) Αφού τρέξαμε μια προσομοίωση με clk 2 Ghz  , και μια με μνήμη DDR3 2400_8x8 για το minorCPU  και το ΤimingSimpleCPU για το specbzip  δεν παρατηρείται καμία αισθητή διαφορά
+| Metric               | MinorCPU       | TimingSimpleCPU    |
+|----------------------|----------------|--------------------|
+| sim_secs             | 0.000034       | 0.000039           |
+| cpi                  | 7.68           | -                  |
+| icache miss rate     | 0.113          | 0.028163           |
+| dcache miss rate     | 0.0718         | 0.0574             |
+
+
+Εκτελέσαμε μια προσομοίωση για δύο διαφορετικά cpu  models  τo  minorCPU  και το timingSimpleCPU και βλέπουμε ότι ο χρόνος εκτέλεσης του προγράμματος για το MinorCPU  μοντέλο είναι 0.000034 seconds  ενώ για το TimingSimpleCPU  είναι 0.000039 seconds. Καθώς η timing  simple  μας δίνει μια πιο καλή χρονική εκτίμηση είναι λογικό να έχουμε μια διαφορά στον χρόνο. Ακόμα παρατηρούμε ότι 
+στο timing Simple CPU μοντέλο το icache miss rate και το dcache miss rate έιναι 
+μικρότερο από αυτό της ΜinorCPU. Όπως φαίνεται και από τον πίνακα το timing SimpleCPU μοντέλο δεν έχει cpi καθώς προσομοιώνει ένα σύστημα το οποίο δεν έχει pipeline και κάθε εντολή παίρνει έναν κύκλο ρολογιού.
+
+3γ) Αφού τρέξαμε μια προσομοίωση με clk 2 Ghz παρατηρούμε μια μικρή διαφορά στον χρόνο εκτέλεσης
+
+| Metric               | MinorCPU   | TimingSimpleCPU |
+|----------------------|------------|-----------------|
+| sim_secs             | 0.000034   | 0.000039        |
+| cpi                  | 7.68       | -               |
+| icache miss rate     | 0.113      | 0.028163        |
+| dcache miss rate     | 0.0718     | 0.0574          |
+
+Αφού τρέξαμε μια προσομοίωση με διαφορετική μνήμη DDR_2400_8x8 παρατηρούμε μια μεγάλη μείωση στο cpi καθώς αυξάνεται πολύ το transfer rate της μνήμης.
+
+| Metric               | MinorCPU   | TimingSimpleCPU |
+|----------------------|------------|-----------------|
+| sim_secs             | 0.000039   | 0.000059        |
+| cpi                  | 4.47       | -               |
+| icache miss rate     | 0.113      | 0.028163        |
+| dcache miss rate     | 0.0716     | 0.0574          |
+
 
 ## Μέρος δεύτερο
 1) Στο αρχείο config.ini παίρνουμε τις πληροφορίες που χρειαζόμαστε για το L1 instruction,L1 DataCache, L2 cache , Cache Line καθώς και το associativity αυτών
@@ -118,22 +147,16 @@ To O3 εξομοιώνει  ένα  μοντέλο out-of order cpu το  οπο
 
 Για να βρούμε την συναρτηση κόστους θεωρούμε το άθροισμα των παραμέτρων των μνημών , όπου κάθενα από τις παραμέτρους είναι πολλαπλασιασμένο με τους εξής παράγοντες ci, και si (όπου i=1..6). Ο παράγοντας si είναι ένας speed factor όπου προκύπτει υπολογίζοντας το sk = (cpi1-cpi2)/(min_paramer_val-max_parameter_val) για καθένα από τα benchmarks και υπολογίζοντας τον μεσο όρο έτσι ώστε να έχουμε μία εκτιμήση για το πόσο ελαττώνει το cpi με την αύξηση κάθεμίας παραμέτρου. Το ci είναι το κόστος σε πυρίτιο για κάθε μια από τις παραμέτρους. Ανατρέχοντας στην βιβλιογραφία μπορούμε να συμπαράνουμε ότι προφανώς ότι το associativity αυξάνει τον αριθμό των πυλών καθώς αυξάνεται η πολυπλοκότητα του κυκλώματος διότι οι συγκρίσεις οι οποίες πρέπει να γίνουν για να βρεθέι το ζητούμενο block στην μνήμη. Επίσης το κόστος για την L1 cache είναι μεγαλύτερο από το κόστος για την L2 cache. Επίσης το κόστος για το μέγεθος μιας μνήμης έιναι μεγαλύτερο απο το κόστος για associativity λόγω της διαφοράς στην πολυπλοκότητα των κυκλωμάτων.Ορίζουμε λοιπόν προσεγγστικά αυθαίρετα κάποιες τιμές για τα c1,..,c6 θεωρόντας ότι c3 >  c1 > c7  > c5 > c4 > c2> c6.
 
-$$
-
-
-\text{cost\_function} = 
-\frac{
-    \big(c_1 \cdot s_1 \cdot \frac{\text{L1\_icache}}{\text{L1\_icache\_assoc(max)}} 
-    + c_2 \cdot s_2 \cdot \frac{\text{L1\_icache\_assoc}}{\text{L1\_icache\_assoc(max)}} 
-    + c_3 \cdot s_3 \cdot \frac{\text{L1\_dcache\_size}}{\text{L1\_dcache\_size(max)}} 
-    + c_4 \cdot s_4 \cdot \frac{\text{L1\_dcache\_assoc}}{\text{L1\_dcache\_assoc(max)}} 
-    + c_5 \cdot s_5 \cdot \frac{\text{L2\_cache\_assoc}}{\text{L2\_cache\_assoc(max)}} 
-    + c_6 \cdot s_6 \cdot \frac{\text{cache\_line}}{\text{cache\_line(max)}} 
-    + c_7 \cdot s_7 \cdot \frac{\text{L2\_cache\_size}}{\text{L2\_cache\_size(max)}}\big)
-}{
-    c_1 \cdot s_1 + c_2 \cdot s_2 + c_3 \cdot s_3 + c_4 \cdot s_4 + c_5 \cdot s_5 + c_6 \cdot s_6 + c_7 \cdot s_7
-}
-
-
-
-$$
+cost_function = 
+(
+    (c1 * s1 * (L1_icache / L1_icache_assoc_max)) +
+    (c2 * s2 * (L1_icache_assoc / L1_icache_assoc_max)) +
+    (c3 * s3 * (L1_dcache_size / L1_dcache_size_max)) +
+    (c4 * s4 * (L1_dcache_assoc / L1_dcache_assoc_max)) +
+    (c5 * s5 * (L2_cache_assoc / L2_cache_assoc_max)) +
+    (c6 * s6 * (cache_line / cache_line_max)) +
+    (c7 * s7 * (L2_cache_size / L2_cache_size_max))
+) / 
+(
+    (c1 * s1) + (c2 * s2) + (c3 * s3) + (c4 * s4) + (c5 * s5) + (c6 * s6) + (c7 * s7)
+)

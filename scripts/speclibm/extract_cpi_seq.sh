@@ -39,6 +39,8 @@ find "$BASE_OUTPUT_DIR" -type f -name "stats.txt" | while read -r stats_file; do
 done
 
 # Find the minimum CPI value and its corresponding test folder
+#Compares the value in the first column ($1) with the current minimum (min).
+#If $1 is smaller, updates min and folde
 read min_cpi min_test_folder < <(awk 'NR == 1 || $1 < min {min = $1; folder = $2} END {print min, folder}' "$TEMP_FILE")
 
 # Clean up temporary file
